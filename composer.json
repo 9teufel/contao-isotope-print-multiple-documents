@@ -5,6 +5,7 @@
     "homepage": "https://github.com/marcosimbuerger/contao-isotope-print-multiple-documents",
     "type": "contao-bundle",
     "license": "LGPL-3.0-or-later",
+    "version": "2.0.1",
     "authors": [
         {
             "name": "Marco Simbürger",
@@ -12,10 +13,9 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": ">=7.2",
         "contao/core-bundle": "^4.4",
-        "isotope/isotope-core": "^2.0",
-        "marcosimbuerger/contao-data-container-extension": "^1.0"
+        "isotope/isotope-core": "^2.0"
     },
     "conflict": {
         "contao/core": "*",
